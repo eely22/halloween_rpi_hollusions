@@ -9,5 +9,13 @@ The videos can all be obtained from http://atmosfx.com/collections/atmosfearfx. 
 
 We did find that we would need to chop off the final 1 second of the video, otherwise there would be a flash on the screen when the video ended. This would dramitcally take away from the effect, so we just edited the videos to remove that last 1 second.
 
+## Video Player
+Omxplayer was used for all video playback.
+
+## Running
+To run, the bash script in the folder entitles run.sh should always be used to start each project. While you can just start the pythong script, there is a command used in the bash script that will hide the foreground in between videos. If you don't start the project from the bash script, you will see a blinking cursor between videos.
+
+The bash script needs to be run as root to perform the action to hide the foreground.
+
 ## bones_random_time
 This will play a set of videos continusously, spacing them randomly from 5 to 10 minutes. This was used to play on the TV at a party so the video would unknowingly start. We chose funnier videos for this as it was a constant attraction throughout the night.
