@@ -19,3 +19,6 @@ The bash script needs to be run as root to perform the action to hide the foregr
 
 ## bones_random_time
 This will play a set of videos continusously, spacing them randomly from 5 to 10 minutes. This was used to play on the TV at a party so the video would unknowingly start. We chose funnier videos for this as it was a constant attraction throughout the night.
+
+## scary_triggered
+This will play scarier videos on two trigger modes, the first is a Particle connected board (Photon, bluz DK, whatever) and the second is a motion sensor. When the trigger happens, it plays a much scarier video that was projected onto a hollograph-like surface to really scare the hell out of people! Then it would sleep for 30 seconds and wait again for a trigger.
